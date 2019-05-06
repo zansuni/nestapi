@@ -40,8 +40,8 @@ export const CustomerSchema = new mongoose.Schema({
         contactPerson: String,
         phone: Number,
         date: Date,
-        timeFrom: TimeRanges,
-        timeTo: TimeRanges,
+        timeFrom: Date,
+        timeTo: Date,
         preNotification: Number,
         comment: String,
       }
